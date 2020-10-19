@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\IDCodeReader\\IDCodeReader\\IDCodeReader.csproj": {}
+    "C:\\Users\\opilane\\source\\repos\\IDCodeReader\\YearValidator\\YearValidator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\IDCodeReader\\IDCodeReader\\IDCodeReader.csproj": {
+    "C:\\Users\\opilane\\source\\repos\\IDCodeReader\\YearValidator\\YearValidator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\IDCodeReader\\IDCodeReader\\IDCodeReader.csproj",
-        "projectName": "IDCodeReader",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\IDCodeReader\\IDCodeReader\\IDCodeReader.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\IDCodeReader\\YearValidator\\YearValidator.csproj",
+        "projectName": "YearValidator",
+        "projectPath": "C:\\Users\\opilane\\source\\repos\\IDCodeReader\\YearValidator\\YearValidator.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\IDCodeReader\\IDCodeReader\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\source\\repos\\IDCodeReader\\YearValidator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",

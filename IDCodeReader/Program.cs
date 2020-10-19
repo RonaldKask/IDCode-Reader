@@ -10,8 +10,9 @@ namespace IDCodeReader
             string usersID = Console.ReadLine(); 
             if (Validation(usersID))
             {
-                Console.WriteLine("Welcome!");
+                Console.WriteLine("Welcome,");
                 HelloUser(usersID);
+                GetYear(usersID);
             }else
             {
                 Console.WriteLine("Wrong format, try again.");
@@ -50,6 +51,21 @@ namespace IDCodeReader
             {
                 Console.WriteLine("Hello madam!");
             }
+        }
+
+        public static void GetYear(string idCode)
+        {
+            string yearFromCode = idCode.Substring(1, 2);
+            string year;
+            if (int.Parse(idCode[0].ToString()) > 4)
+            {
+                year = "20" + yearFromCode;
+            }else
+            {
+                year = 20 + yearFromCode;
+            }
+
+            Console.WriteLine($"You were born in {year}");
         }
     }
 }
